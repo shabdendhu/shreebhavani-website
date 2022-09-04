@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { useWindowSize } from "../../website/src/hooks/useWidth";
 
@@ -34,12 +35,14 @@ const Header = () => {
           justifyContent: "center",
         }}
       >
-        <img
+        <Image
           alt="image"
           style={{
-            height: "80px",
+            // height: "80px",
             marginTop: "5px",
           }}
+          height={80}
+          width={80}
           src="/logo2.png"
         />
         {/* <span
