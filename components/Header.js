@@ -1,9 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import { useWindowSize } from "../../website/src/hooks/useWidth";
 
 const Header = () => {
-  const dimention = useWindowSize();
   return (
     <div
       style={{
