@@ -1,8 +1,11 @@
+import dynamic from "next/dynamic";
 import React from "react";
-import Banner from "./Banner";
+// import Banner from "./Banner";
 import ProductCards from "./Cards/ProductCards";
 import CategoryBar from "./CategoryBar";
-
+const Banner = dynamic(() => import('./Banner'), {
+ ssr:false
+})
 const Body = () => {
   return (
     <>

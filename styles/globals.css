@@ -24,3 +24,6 @@ a {
     background: rgb(255, 255, 255);
   }
 }
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
