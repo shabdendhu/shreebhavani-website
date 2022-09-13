@@ -5,26 +5,17 @@ const Header = () => {
   return (
     <div
       style={{
-        background: "#040398",
-        height: "100px",
+        background: "#FFFFFF",
+        height: "80px",
         display: "flex",
         alignItems: "center",
         padding: "0px 15px",
       }}
     >
-      <span
-        style={{
-          color: "#FFFFFF",
-          fontSize: "75px",
-        }}
-        className="material-icons"
-      >
-        menu
-      </span>
 
       <span
         style={{
-          color: "#FFFFFF",
+          color: "#054C73",
           fontWeight: 800,
           margin: "0px 10px",
           fontFamily: "sans-serif",
@@ -43,61 +34,13 @@ const Header = () => {
           width={80}
           src="/logo2.png"
         />
-        {/* <span
-          style={{
-            fontSize: "25px",
-          }}
-        >
-          श्री
-        </span>{" "}
-        <span
-          style={{
-            fontSize: "27px",
-          }}
-        >
-          ଭବାନୀ
-        </span> */}
         <span style={
           {
             fontSize:"30px"
           }
-        }>Full Name</span>
+        }>Maa Bhawani</span>
       </span>
-      {/* {dimention.width > 600 && (
-        <div
-          style={{
-            width: "50%",
-            position: "relative",
-            //   overflow:'hidden'
-          }}
-        >
-          <input
-            placeholder="Search Product Here"
-            style={{
-              height: "40px",
-              borderRadius: "10px",
-              border: "1px solid white",
-              margin: "0px 20px",
-              width: "90%",
-              outline: "none",
-              fontSize: "20px",
-              padding: "0px 15px",
-            }}
-          />
-          <span
-            style={{
-              fontSize: "30px",
-              position: "absolute",
-              top: "8px",
-              right: "32px",
-              color: "white",
-            }}
-            className="material-icons"
-          >
-            search
-          </span>
-        </div>
-      )} */}
+ 
     </div>
   );
 };
