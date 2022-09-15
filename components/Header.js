@@ -6,13 +6,12 @@ const Header = () => {
     <div
       style={{
         background: "#FFFFFF",
-        height: "80px",
+        // height: "80px",
         display: "flex",
         alignItems: "center",
         padding: "0px 15px",
       }}
     >
-
       <span
         style={{
           color: "#054C73",
@@ -34,13 +33,17 @@ const Header = () => {
           width={80}
           src="/logo2.png"
         />
-        <span style={
-          {
-            fontSize:"30px"
-          }
-        }>Maa Bhawani</span>
+        <span
+          style={{
+            fontSize: "30px",
+            fontFamily:'cursive',
+            fontWeight:600
+          }}
+        >
+          श्री Bhavani Electronics, Furniture & Mobiles
+        </span>
+        {/* (श्री ଭବାନୀ ଇଲେକ୍ଟ୍ରୋନିକ୍ସ,ଫର୍ଣ୍ଣିଚର ଓ ମୋବାଇଲ) */}
       </span>
- 
     </div>
   );
 };

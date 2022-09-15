@@ -17,11 +17,11 @@ a {
 
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
+    /* color-scheme: dark; */
   }
   body {
-    color: white;
-    background: rgb(255, 255, 255);
+    /* color: white; */
+    /* background: rgb(255, 255, 255); */
   }
 }
 .hide-scroll-bar::-webkit-scrollbar {

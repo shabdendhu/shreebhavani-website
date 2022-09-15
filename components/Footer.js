@@ -1,0 +1,42 @@
+import Image from "next/image";
+import React from "react";
+
+const Footer = () => {
+  return (
+    <div
+      style={{
+        background: "#f2f5ff",
+        padding: "10px",
+        display: "flex",
+        flexDirection: "row",
+        alignItems: "center",
+      }}
+    >
+      <span
+        style={{
+          color: "#03344F",
+          fontSize: "20px",
+          fontFamily: "cursive",
+          width: "60%",
+          textAlign:'center'
+        }}
+      >
+        श्री ଭବାନୀ ଇଲେକ୍ଟ୍ରୋନିକ୍ସ,ଫର୍ଣ୍ଣିଚର ଓ ମୋବାଇଲ
+      </span>
+      <span
+        style={{
+          width: "40%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-around",
+        }}
+      >
+        <Image width={40} height={40} src={"/facebook.svg"} />
+        <Image width={40} height={40} src={"/instagram.svg"} />
+        <Image width={40} height={40} src={"/snapchat.svg"} />
+      </span>
+    </div>
+  );
+};
+
+export default Footer;
