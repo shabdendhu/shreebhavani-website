@@ -31,9 +31,9 @@ const Footer = () => {
           justifyContent: "space-around",
         }}
       >
-        <Image width={40} height={40} src={"/facebook.svg"} />
-        <Image width={40} height={40} src={"/instagram.svg"} />
-        <Image width={40} height={40} src={"/snapchat.svg"} />
+        <Image quality={1} width={40} height={40} src={"/facebook.svg"} />
+        <Image quality={1} width={40} height={40} src={"/instagram.svg"} />
+        <Image quality={1} width={40} height={40} src={"/snapchat.svg"} />
       </span>
     </div>
   );

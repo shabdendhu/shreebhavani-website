@@ -10,7 +10,13 @@ const Body = () => {
           position: "relative",
         }}
       >
-        <Image width={1300} height={700} layout="responsive" src="/Body.svg" />
+        <Image
+          quality={1}
+          width={1300}
+          height={700}
+          layout="responsive"
+          src="/Body.svg"
+        />
 
         <div
           //  style={{
@@ -123,7 +129,7 @@ const Body = () => {
             padding: "10px",
           }}
         >
-          <Image src={"/truck.svg"} height={50} width={50} />
+          <Image quality={1} src={"/truck.svg"} height={50} width={50} />
           <span
             style={{
               display: "flex",
@@ -162,7 +168,7 @@ const Body = () => {
             padding: "10px",
           }}
         >
-          <Image src={"/24support.svg"} height={50} width={50} />
+          <Image quality={1} src={"/24support.svg"} height={50} width={50} />
           <span
             style={{
               display: "flex",
@@ -201,7 +207,7 @@ const Body = () => {
             padding: "10px",
           }}
         >
-          <Image src={"/truck.svg"} height={50} width={50} />
+          <Image quality={1} src={"/truck.svg"} height={50} width={50} />
           <span
             style={{
               display: "flex",
@@ -281,6 +287,7 @@ const Body = () => {
           }}
         >
           <Image
+            quality={1}
             style={{
               borderRadius: "170px 0px 0px 0px",
             }}
@@ -288,8 +295,9 @@ const Body = () => {
             width={355}
             src="/watch.svg"
           />
-          <Image height={434} width={355} src="/binbag.svg" />
+          <Image quality={1} height={434} width={355} src="/binbag.svg" />
           <Image
+            quality={1}
             style={{
               borderRadius: "0px 0px 170px 0px",
             }}
@@ -346,6 +354,7 @@ const Body = () => {
           }}
         >
           <Image
+            quality={1}
             style={{
               borderRadius: "170px 0px 0px 0px",
             }}
@@ -353,8 +362,9 @@ const Body = () => {
             width={355}
             src="/watch.svg"
           />
-          <Image height={434} width={355} src="/binbag.svg" />
+          <Image quality={1} height={434} width={355} src="/binbag.svg" />
           <Image
+            quality={1}
             style={{
               borderRadius: "0px 0px 170px 0px",
             }}
@@ -369,8 +379,6 @@ const Body = () => {
           paddingBottom: "20px",
           display: "flex",
           flexDirection: "row",
-          maxWidth: "1900px",
-          margin: "auto",
           justifyContent: "center",
         }}
       >
@@ -383,6 +391,7 @@ const Body = () => {
             borderRadius: "10px",
             margin: "20px",
             position: "relative",
+            marginRight: "200px",
           }}
         >
           <div
@@ -482,11 +491,11 @@ const Body = () => {
           <div
             style={{
               position: "absolute",
-              top: "70px",
+              top: "30px",
               right: "-400px",
             }}
           >
-            <Image width={600} height={440} src={"/chair.svg"} />
+            <Image quality={1} width={600} height={500} src={"/chair.svg"} />
           </div>
         </div>
       </div>

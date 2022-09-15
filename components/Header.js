@@ -23,7 +23,7 @@ const Header = () => {
           justifyContent: "center",
         }}
       >
-        <Image
+        <Image quality={1}
           alt="image"
           style={{
             // height: "80px",
