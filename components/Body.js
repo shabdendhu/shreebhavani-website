@@ -33,20 +33,21 @@ const Body = () => {
           //       padding: "20px",
           //       borderRadius: "10px",
           //     }}
-          style={{
-            position: "absolute",
-            background: "#DFE9F4",
-            bordeRadius: "10px",
-            top: "10%",
-            right: "5%",
-            // height: "55%",
-            width: "45%",
-            display: "flex",
-            justifyContent: "space-around",
-            flexDirection: "column",
-            padding: "20px",
-            borderRadius: "10px",
-          }}
+          // style={{
+          //   position: "absolute",
+          //   background: "#DFE9F4",
+          //   bordeRadius: "10px",
+          //   top: "10%",
+          //   right: "5%",
+          //   // height: "55%",
+          //   width: "45%",
+          //   display: "flex",
+          //   justifyContent: "space-around",
+          //   flexDirection: "column",
+          //   padding: "20px",
+          //   borderRadius: "10px",
+          // }}
+          className="intro"
         >
           <div
             style={{
@@ -389,9 +390,9 @@ const Body = () => {
             width: "60%",
             padding: "5% 5%",
             borderRadius: "10px",
-            margin: "20px",
+            // margin: "20px",
             position: "relative",
-            marginRight: "200px",
+            // marginRight: "200px",
           }}
         >
           <div
@@ -488,16 +489,16 @@ const Body = () => {
               }}
             />
           </div>
-          <div
-            style={{
-              position: "absolute",
-              top: "30px",
-              right: "-400px",
-            }}
-          >
-            <Image quality={1} width={600} height={500} src={"/chair.svg"} />
-          </div>
         </div>
+        <iframe
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FShreeBhavaniEFM&tabs=timeline&width=350&height=600&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+          style={{ border: "none", overflow: "hidden",width:'500px' }}
+          scrolling="no"
+          frameborder="0"
+          allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+        ></iframe>
+       
       </div>
     </div>
   );

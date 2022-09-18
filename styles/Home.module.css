@@ -127,3 +127,21 @@
     filter: invert(1);
   }
 }
+.intro{
+  position: absolute;
+  background: #DFE9F4;
+  /* borde-radius: 10px; */
+  top: 10%;
+  right: 5%;
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+}
+@media screen and (max-width:800px) {
+  .intro{
+
+  }
+}
