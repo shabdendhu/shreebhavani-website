@@ -18,7 +18,7 @@ const Footer = () => {
           fontSize: "20px",
           fontFamily: "cursive",
           width: "60%",
-          textAlign:'center'
+          textAlign: "center",
         }}
       >
         श्री ଭବାନୀ ଇଲେକ୍ଟ୍ରୋନିକ୍ସ,ଫର୍ଣ୍ଣିଚର ଓ ମୋବାଇଲ
@@ -33,7 +33,9 @@ const Footer = () => {
       >
         <Image quality={1} width={40} height={40} src={"/facebook.svg"} />
         <Image quality={1} width={40} height={40} src={"/instagram.svg"} />
-        <Image quality={1} width={40} height={40} src={"/snapchat.svg"} />
+        <a href="https://wa.me/919776541841?text=Hi">
+          <Image quality={1} width={40} height={40} src={"/whatsapp.svg"} />
+        </a>
       </span>
     </div>
   );

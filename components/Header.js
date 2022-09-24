@@ -23,7 +23,8 @@ const Header = () => {
           justifyContent: "center",
         }}
       >
-        <Image quality={1}
+        <Image
+          quality={1}
           alt="image"
           style={{
             // height: "80px",
@@ -33,14 +34,18 @@ const Header = () => {
           width={80}
           src="/logo2.png"
         />
+        <span>
         <span
           style={{
             fontSize: "30px",
-            fontFamily:'cursive',
-            fontWeight:600
+            fontFamily: "cursive",
+            fontWeight: 600,
           }}
         >
-          श्री Bhavani Electronics, Furniture & Mobiles
+          श्री ଭବାନୀ
+        </span>
+        <br />
+        <span>Electronics, Furniture & Mobiles</span>
         </span>
         {/* (श्री ଭବାନୀ ଇଲେକ୍ଟ୍ରୋନିକ୍ସ,ଫର୍ଣ୍ଣିଚର ଓ ମୋବାଇଲ) */}
       </span>

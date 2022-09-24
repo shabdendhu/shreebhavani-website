@@ -3,8 +3,11 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 const Body = () => {
+  const [showInsta, setShowInsta] = useState(false);
   return (
     <div>
+      <div id="fb-root"></div>
+      
       <div
         style={{
           position: "relative",
@@ -490,15 +493,16 @@ const Body = () => {
             />
           </div>
         </div>
+
         <iframe
           src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FShreeBhavaniEFM&tabs=timeline&width=350&height=600&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-          style={{ border: "none", overflow: "hidden",width:'500px' }}
-          // scrolling="no"
-          // frameborder="0"
-          // allowfullscreen="true"
-          // allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-        ></iframe>
-       
+          style={{
+            border: "none",
+            overflow: "hidden",
+            width: "500px",
+            height: "600px",
+          }}
+        />
       </div>
     </div>
   );
