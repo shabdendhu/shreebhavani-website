@@ -7,18 +7,18 @@ const Body = () => {
   return (
     <div>
       <div id="fb-root"></div>
-      
+
       <div
         style={{
           position: "relative",
         }}
       >
         <Image
-          quality={1}
+          quality={100}
           width={1300}
           height={700}
           layout="responsive"
-          src="/Body.svg"
+          src="/background.jpg"
         />
 
         <div
@@ -89,31 +89,32 @@ const Body = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis.
           </div>
-          <div
-            style={{
-              // display: "flex",
-              // flexDirection: "row",
-              // alignItems: "center",
-              // padding: "25px 72px",
-              // gap: "10px",
-              // position: "absolute",
-              // width: "229px",
-              // height: "18%",
-              // minWidth: "250px",
-              // maxWidth: "300px",
-              width: "200px",
-              padding: "10px",
-
-              backgroundColor: "#054C73",
-              borderRadius: "50px",
-              fontSize: "22px",
-              textAlign: "center",
-              color: "white",
-              fontFamily: "cursive",
-            }}
-          >
-            Buy Now
-          </div>
+          <a href="https://wa.me/919776541841?text=Hi">
+            <div
+              style={{
+                // display: "flex",
+                // flexDirection: "row",
+                // alignItems: "center",
+                // padding: "25px 72px",
+                // gap: "10px",
+                // position: "absolute",
+                // width: "229px",
+                // height: "18%",
+                // minWidth: "250px",
+                // maxWidth: "300px",
+                width: "200px",
+                padding: "10px",
+                backgroundColor: "#054C73",
+                borderRadius: "50px",
+                fontSize: "22px",
+                textAlign: "center",
+                color: "white",
+                fontFamily: "cursive",
+              }}
+            >
+              WhatsApp Us
+            </div>
+          </a>
         </div>
       </div>
       <div
@@ -384,20 +385,10 @@ const Body = () => {
           display: "flex",
           flexDirection: "row",
           justifyContent: "center",
+          flexWrap: "wrap",
         }}
       >
-        <div
-          style={{
-            color: "#03344F",
-            background: "#f2f5ff",
-            width: "60%",
-            padding: "5% 5%",
-            borderRadius: "10px",
-            // margin: "20px",
-            position: "relative",
-            // marginRight: "200px",
-          }}
-        >
+        <div className="message">
           <div
             style={{
               fontSize: "3rem",
@@ -424,16 +415,17 @@ const Body = () => {
               Name
             </span>
             <input
-              style={{
-                border: "1px solid #03344f54",
-                height: "30px",
-                borderRadius: "20px",
-                outline: "none",
-                fontSize: "17px",
-                color: "#03344F",
-                padding: "0px 10px",
-                width: "70%",
-              }}
+              className="contact-input"
+              // style={{
+              //   border: "1px solid #03344f54",
+              //   height: "30px",
+              //   borderRadius: "20px",
+              //   outline: "none",
+              //   fontSize: "17px",
+              //   color: "#03344F",
+              //   padding: "0px 10px",
+              //   width: "70%",
+              // }}
             />
           </div>
           <div
@@ -452,16 +444,17 @@ const Body = () => {
               Phone
             </span>
             <input
-              style={{
-                border: "1px solid #03344f54",
-                height: "30px",
-                borderRadius: "20px",
-                outline: "none",
-                fontSize: "17px",
-                color: "#03344F",
-                padding: "0px 10px",
-                width: "70%",
-              }}
+              className="contact-input"
+              // style={{
+              //   border: "1px solid #03344f54",
+              //   height: "30px",
+              //   borderRadius: "20px",
+              //   outline: "none",
+              //   fontSize: "17px",
+              //   color: "#03344F",
+              //   padding: "0px 10px",
+              //   width: "70%",
+              // }}
             />
           </div>
           <div
@@ -480,27 +473,31 @@ const Body = () => {
               Name
             </span>
             <textarea
+              className="contact-input"
               style={{
-                border: "1px solid #03344f54",
+                // border: "1px solid #03344f54",
                 height: "150px",
                 borderRadius: "10px",
-                outline: "none",
-                fontSize: "17px",
-                color: "#03344F",
-                padding: "0px 10px",
-                width: "70%",
+                // outline: "none",
+                // fontSize: "17px",
+                // color: "#03344F",
+                // padding: "0px 10px",
+                // width: "70%",
               }}
             />
+            <div className="sendMessage">SEND</div>
           </div>
         </div>
 
         <iframe
-          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FShreeBhavaniEFM&tabs=timeline&width=350&height=600&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FShreeBhavaniEFM&tabs=timeline&width=350&height=620&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
           style={{
             border: "none",
             overflow: "hidden",
-            width: "500px",
+            width: "350px",
             height: "600px",
+            display: "flex",
+            alignSelf: "center",
           }}
         />
       </div>

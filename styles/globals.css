@@ -27,9 +27,9 @@ a {
 .hide-scroll-bar::-webkit-scrollbar {
   display: none;
 }
-.intro{
+.intro {
   position: absolute;
-  background: #DFE9F4;
+  background: #dfe9f4;
   /* borde-radius: 10px; */
   top: 10%;
   right: 5%;
@@ -40,20 +40,42 @@ a {
   padding: 20px;
   border-radius: 10px;
 }
-.message{
-  color: #03344F;
+.message {
+  color: #03344f;
   background: #f2f5ff;
   width: 60%;
   padding: 5% 5%;
   border-radius: 10px;
   margin: 20px;
   position: relative;
-  margin-right: 200px;
+ }
+.sendMessage {
+  width: 70%;
+  background-color: #03344f;
+  color: white;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
-@media screen and (max-width:800px) {
-  .intro{
+.contact-input {
+  border: 1px solid #03344f54;
+  height: 30px;
+  border-radius: 20px;
+  outline: none;
+  font-size: 17px;
+  color: #03344f;
+  padding: 0px 10px;
+  width: 70%;
+}
+
+@media screen and (max-width: 800px) {
+  .intro {
     position: static;
-    background: #DFE9F4;
+    background: #dfe9f4;
     /* borde-radius: 10px; */
     /* top: 10%;
     right: 5%; */
@@ -64,8 +86,12 @@ a {
     padding: 20px;
     border-radius: 10px;
   }
-  .message{
-  width: 100%;
-
+  .message {
+    width: 100%;
+    margin-right: 0px;
+    margin: 0px;
+  }
+  .contact-input{
+    width: 100%;
   }
 }

@@ -10,6 +10,9 @@ const Header = () => {
         display: "flex",
         alignItems: "center",
         padding: "0px 15px",
+        position: "fixed",
+        width: "100%",
+        zIndex:99999999
       }}
     >
       <span
@@ -34,18 +37,28 @@ const Header = () => {
           width={80}
           src="/logo2.png"
         />
-        <span>
         <span
           style={{
-            fontSize: "30px",
-            fontFamily: "cursive",
-            fontWeight: 600,
+            textAlign: "center",
           }}
         >
-          श्री ଭବାନୀ
-        </span>
-        <br />
-        <span>Electronics, Furniture & Mobiles</span>
+          <span
+            style={{
+              fontSize: "30px",
+              fontFamily: "cursive",
+              fontWeight: 600,
+            }}
+          >
+            श्री ଭବାନୀ
+          </span>
+          <br />
+          <span
+            style={{
+              fontSize: "13px",
+            }}
+          >
+            Electronics, Furniture & Mobiles
+          </span>
         </span>
         {/* (श्री ଭବାନୀ ଇଲେକ୍ଟ୍ରୋନିକ୍ସ,ଫର୍ଣ୍ଣିଚର ଓ ମୋବାଇଲ) */}
       </span>

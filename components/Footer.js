@@ -31,8 +31,12 @@ const Footer = () => {
           justifyContent: "space-around",
         }}
       >
-        <Image quality={1} width={40} height={40} src={"/facebook.svg"} />
-        <Image quality={1} width={40} height={40} src={"/instagram.svg"} />
+        <a href="https://www.facebook.com/ShreeBhavaniEFM/">
+          <Image quality={1} width={40} height={40} src={"/facebook.svg"} />
+        </a>
+        <a href="https://www.instagram.com/shreebhavaniefm/">
+          <Image quality={1} width={40} height={40} src={"/instagram.svg"} />
+        </a>
         <a href="https://wa.me/919776541841?text=Hi">
           <Image quality={1} width={40} height={40} src={"/whatsapp.svg"} />
         </a>
