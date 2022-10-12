@@ -381,6 +381,73 @@ const Body = () => {
       </div>
       <div
         style={{
+          padding: "20px",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            padding: "5%",
+          }}
+        >
+          <span
+            style={{
+              fontFamily: "Montserrat",
+              fontStyle: "normal",
+              fontWeight: 700,
+              fontSize: "32px",
+              lineHheight: "39px",
+              color: "#333333",
+            }}
+          >
+            Browse The Range
+          </span>
+          <span
+            style={{
+              fontFamily: "Montserrat",
+              fontStyle: "normal",
+              fontWeight: 400,
+              fontSize: "20px",
+              lineHeight: "24px",
+              textAlign: "center",
+              color: "#666666",
+            }}
+          >
+            Browse The Range descriptions should meet the topic
+          </span>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+            flexWrap: "wrap",
+          }}
+        >
+          <Image
+            quality={1}
+            style={{
+              borderRadius: "170px 0px 0px 0px",
+            }}
+            height={434}
+            width={355}
+            src="/watch.svg"
+          />
+          <Image quality={1} height={434} width={355} src="/binbag.svg" />
+          <Image
+            quality={1}
+            style={{
+              borderRadius: "0px 0px 170px 0px",
+            }}
+            height={434}
+            width={355}
+            src="/lamp2.svg"
+          />
+        </div>
+      </div>
+      <div
+        style={{
           paddingBottom: "20px",
           display: "flex",
           flexDirection: "row",
