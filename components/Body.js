@@ -81,13 +81,12 @@ const Body = () => {
           </div>
           <div
             style={{
-              margin: "20px",
+              margin: "50px",
               color: "#333333",
               fontFamily: "cursive",
             }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis.
+            Discover the best in Electronics, Furniture and Mobiles at Shree Bhavani - Your stop shopping destination.
           </div>
           <a href="https://wa.me/919776541841?text=Hi">
             <div
@@ -151,7 +150,7 @@ const Body = () => {
                 color: "#333333",
               }}
             >
-              Free Delivery
+              Free Delivery*
             </span>
             <span
               style={{
