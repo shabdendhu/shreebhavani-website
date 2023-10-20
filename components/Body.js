@@ -86,7 +86,7 @@ const Body = () => {
               fontFamily: "cursive",
             }}
           >
-            Discover the best in Electronics, Furniture and Mobiles at Shree Bhavani - Your stop shopping destination.
+            Discover the best in Electronics, Furniture and Mobiles at Shree Bhavani - Your One stop shopping destination.
           </div>
           <a href="https://wa.me/919776541841?text=Hi">
             <div
