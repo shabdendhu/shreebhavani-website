@@ -5,26 +5,19 @@ const Header = () => {
   return (
     <div
       style={{
-        background: "#040398",
-        height: "100px",
+        background: "#FFFFFF",
+        // height: "80px",
         display: "flex",
         alignItems: "center",
         padding: "0px 15px",
+        position: "fixed",
+        width: "100%",
+        zIndex:99999999
       }}
     >
       <span
         style={{
-          color: "#FFFFFF",
-          fontSize: "75px",
-        }}
-        className="material-icons"
-      >
-        menu
-      </span>
-
-      <span
-        style={{
-          color: "#FFFFFF",
+          color: "#054C73",
           fontWeight: 800,
           margin: "0px 10px",
           fontFamily: "sans-serif",
@@ -34,6 +27,7 @@ const Header = () => {
         }}
       >
         <Image
+          quality={1}
           alt="image"
           style={{
             // height: "80px",
@@ -43,61 +37,31 @@ const Header = () => {
           width={80}
           src="/logo2.png"
         />
-        {/* <span
-          style={{
-            fontSize: "25px",
-          }}
-        >
-          श्री
-        </span>{" "}
         <span
           style={{
-            fontSize: "27px",
+            textAlign: "center",
           }}
         >
-          ଭବାନୀ
-        </span> */}
-        <span style={
-          {
-            fontSize:"30px"
-          }
-        }>Full Name</span>
-      </span>
-      {/* {dimention.width > 600 && (
-        <div
-          style={{
-            width: "50%",
-            position: "relative",
-            //   overflow:'hidden'
-          }}
-        >
-          <input
-            placeholder="Search Product Here"
-            style={{
-              height: "40px",
-              borderRadius: "10px",
-              border: "1px solid white",
-              margin: "0px 20px",
-              width: "90%",
-              outline: "none",
-              fontSize: "20px",
-              padding: "0px 15px",
-            }}
-          />
           <span
             style={{
               fontSize: "30px",
-              position: "absolute",
-              top: "8px",
-              right: "32px",
-              color: "white",
+              fontFamily: "cursive",
+              fontWeight: 600,
             }}
-            className="material-icons"
           >
-            search
+            श्री ଭବାନୀ
           </span>
-        </div>
-      )} */}
+          <br />
+          <span
+            style={{
+              fontSize: "13px",
+            }}
+          >
+            Electronics, Furniture & Mobiles
+          </span>
+        </span>
+        {/* (श्री ଭବାନୀ ଇଲେକ୍ଟ୍ରୋନିକ୍ସ,ଫର୍ଣ୍ଣିଚର ଓ ମୋବାଇଲ) */}
+      </span>
     </div>
   );
 };

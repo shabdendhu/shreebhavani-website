@@ -61,6 +61,7 @@ const CategoryBar = () => {
           }}
         >
           <Image
+           quality={1}
             width={"150px"}
             height={"170px"}
             // layout="fill"

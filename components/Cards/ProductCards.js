@@ -11,7 +11,7 @@ const ProductCards = () => {
         margin: "10px",
       }}
     >
-      <Image
+      <Image quality={1}
         height={"200px"}
         width={"200px"}
         // style={{ height: "200px" }}

@@ -61,7 +61,7 @@ const HomeBanner = () => {
                 justifyContent:'center'
               }}
             >
-              <Image width={1565} height={350} src={data} alt="banner" />
+              <Image quality={1} width={1565} height={350} src={data} alt="banner" />
             </div>
           ))}
         </AutoPlaySwipeableViews>
