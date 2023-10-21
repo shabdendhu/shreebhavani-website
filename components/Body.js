@@ -22,34 +22,6 @@ const Body = () => {
         />
 
         <div
-          //  style={{
-          //       // position: "absolute",
-          //       background: "#DFE9F4",
-          //       bordeRadius: "10px",
-          //       top: "10%",
-          //       right: "5%",
-          //       // height: "55%",
-          //       width: "100%",
-          //       display: "flex",
-          //       justifyContent: "space-around",
-          //       flexDirection: "column",
-          //       padding: "20px",
-          //       borderRadius: "10px",
-          //     }}
-          // style={{
-          //   position: "absolute",
-          //   background: "#DFE9F4",
-          //   bordeRadius: "10px",
-          //   top: "10%",
-          //   right: "5%",
-          //   // height: "55%",
-          //   width: "45%",
-          //   display: "flex",
-          //   justifyContent: "space-around",
-          //   flexDirection: "column",
-          //   padding: "20px",
-          //   borderRadius: "10px",
-          // }}
           className="intro"
         >
           <div
@@ -511,16 +483,6 @@ const Body = () => {
             </span>
             <input
               className="contact-input"
-              // style={{
-              //   border: "1px solid #03344f54",
-              //   height: "30px",
-              //   borderRadius: "20px",
-              //   outline: "none",
-              //   fontSize: "17px",
-              //   color: "#03344F",
-              //   padding: "0px 10px",
-              //   width: "70%",
-              // }}
             />
           </div>
           <div
@@ -544,11 +506,6 @@ const Body = () => {
                 // border: "1px solid #03344f54",
                 height: "150px",
                 borderRadius: "10px",
-                // outline: "none",
-                // fontSize: "17px",
-                // color: "#03344F",
-                // padding: "0px 10px",
-                // width: "70%",
               }}
             />
             <div className="sendMessage">SEND</div>
